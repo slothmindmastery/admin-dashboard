@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="container">
-    <div id="sidebar">
+    <div class="sidebar">
       <h2 id="dashboard-heading"><img src="view-dashboard.svg" class="large-icon white-filter">Dashboard</h2>
       <ul class="dashboard-links">
         <li><img src="home.svg" class="icon white-filter">Home</li>
@@ -24,24 +24,148 @@
         <li><img src="shield-check.svg" class="icon white-filter">Privacy</li>
       </ul>
     </div>
-    <div id="header">
-      <div id="search">
-        searchbar
+    <div class="header">
+      <div class="search">
+        <img src="magnify.svg" class="icon">
+        <input type="search">
       </div>
-      <div id="logo">
-        logo
+      <div class="logo">
+        <img src="bell-ring-outline.svg" class="icon justify-right">
+        <img src="cat.png" class="circle-image small-image">
+        <p>Morgan Oakley</p>
       </div>
-      <div id="greeting">
-        greeting
+      <div class="greeting">
+        <img src="cat.png" class="circle-image medium-image" id="greeting-image">
+        <p id="hi-there">Hi there,</p>
+        <p id="name">Morgan Oakley (@Morgan)</p>
       </div>
-      <div id="actions">
+      <div class="actions">
         <button>New</button>
         <button>Upload</button>
         <button>Share</button>
       </div>
     </div>
-    <div id="content">
-      content
+    <div class="content">
+      <div class="projects">
+        <h3 class="content-heading">Projects</h3>
+        <div id="content-cards">
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Super Cool Project</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Less Cool Project</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Impossible App</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Easy Peasy App</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Add Blocker</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h3 class="card-heading">Money Maker</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci eveniet dolorem laborum sunt...</p>
+            </div>
+            <div class="card-images">
+              <img src="star-plus-outline.svg" class="icon">
+              <img src="eye-plus-outline.svg" class="icon">
+              <img src="source-fork.svg" class="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="announcements-area">
+        <h3 class="content-heading">Announcements</h3>
+        <div class= "announcements card">
+          <div class="announcement">
+            <h3 class="announcement-heading">Site Maintenance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nisi, sint quae odit labore...</p>
+          </div>
+          <div class="announcement">
+            <h3 class="announcement-heading">Community Share Day</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nisi, sint quae odit labore...</p>
+          </div>
+          <div class="announcement">
+            <h3 class="announcement-heading">Updated Privacy Policy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nisi, sint quae odit labore...</p>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <h3 class="content-heading">Trending</h3>
+        <div id="trending" class="card">
+          <div class="trending-item">
+            <img src="sloth.png" class="circle-image small-image trending-image">
+            <div class="trending-text">
+              <h3 class="announcement-heading">@tegan</h3>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="cat.png" class="circle-image small-image trending-image">
+            <div class="trending-text">
+              <h3 class="announcement-heading">@morgan</h3>
+              <p>Super Cool Project</p>
+            </div>
+          </div>          
+          <div class="trending-item">
+            <img src="dog.png" class="circle-image small-image trending-image">
+            <div class="trending-text">
+              <h3 class="announcement-heading">@kendall</h3>
+              <p>Life Changing App</p>
+            </div>
+          </div>          
+          <div class="trending-item">
+            <img src="panda.png" class="circle-image small-image trending-image">
+            <div class="trending-text">
+              <h3 class="announcement-heading">@alex</h3>
+              <p>No Traffic Maker</p>
+            </div>
+          </div>
+      </div>
     </div>
   </div>
 </body>
