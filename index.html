@@ -9,29 +9,20 @@
 <body>
   <div id="container">
     <div id="sidebar">
-      <img src="view-dashboard.svg" class="large-icon white-filter">
-      <h2>Dashboard</h2>
-      <img src="home.svg" class="icon white-filter">
-      <p>Home</p>
-      <img src="card-account-details-outline.svg" class="icon white-filter">
-      <p>Profile</p>
-      <img src="message-reply.svg" class="icon white-filter">
-      <p>Messages</p>
-      <img src="clock-time-three.svg" class="icon white-filter">
-      <p>History</p>
-      <img src="note-multiple.svg" class="icon white-filter">
-      <p>Tasks</p>
-      <img src="account-group.svg" class="icon white-filter">
-      <p>Communities</p>
-
-      <img src="cog.svg" class="icon white-filter">
-
-      <p>Settings</p>
-      <img src="help-box.svg" class="icon white-filter">
-      <p>Support</p>
-      <img src="shield-check.svg" class="icon white-filter">
-      <p>Privacy</p>
-
+      <h2 id="dashboard-heading"><img src="view-dashboard.svg" class="large-icon white-filter">Dashboard</h2>
+      <ul class="dashboard-links">
+        <li><img src="home.svg" class="icon white-filter">Home</li>
+        <li><img src="card-account-details-outline.svg" class="icon white-filter">Profile</li>
+        <li><img src="message-reply.svg" class="icon white-filter">Messages</li>
+        <li><img src="clock-time-three.svg" class="icon white-filter">History</li>
+        <li><img src="note-multiple.svg" class="icon white-filter">Tasks</li>
+        <li><img src="account-group.svg" class="icon white-filter">Communities</li>
+      </ul>
+      <ul class="dashboard-links">
+        <li><img src="cog.svg" class="icon white-filter">Settings</li>
+        <li><img src="help-box.svg" class="icon white-filter">Support</li>
+        <li><img src="shield-check.svg" class="icon white-filter">Privacy</li>
+      </ul>
     </div>
     <div id="header">
       <div id="search">
@@ -44,7 +35,9 @@
         greeting
       </div>
       <div id="actions">
-        actions
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
       </div>
     </div>
     <div id="content">
